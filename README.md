@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Github Org
 
-## Getting Started
+为了方便邀请用户加入 Github Organization，开发了这个小工具
 
-First, run the development server:
+## 部署
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+推荐使用 Vercel，点击下面按钮即可进行部署，需要准备好：
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> 用于 Github 登录
+>
+> https://github.com/settings/applications/new
+>
+> Homepage URL 设置为最终访问域名 url
+>
+> Authorization callback URL 为 url 后加上 /api/auth/callback/github
+>
+> example: https://copilot1.bbznop.com/api/auth/callback/github
+>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+GITHUB_ID=
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+GITHUB_SECRET=
 
-## Learn More
+>
+> 用于自动申请组织: ORG_NAME 为组织名，Token 为组织的 Token
+>
+> https://github.com/settings/personal-access-tokens/new
+>
+> Resource owner 选择对应组织
 
-To learn more about Next.js, take a look at the following resources:
+ORG_NAME=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Token=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> 用于 NextAuth 部署: openssl rand -base64 32 生成
+>
 
-## Deploy on Vercel
+JWT_SECRET=
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
