@@ -2,9 +2,6 @@
 
 为了方便邀请用户加入 Github Organization，开发了这个小工具
 
-![](https://github.com/godimessy1/Github-Org/assets/162074038/9f96d415-a889-402d-9f22-e88d8713517b)
-
-
 ## 部署
 
 推荐使用 Vercel，点击下面按钮即可进行部署，需要准备好：
