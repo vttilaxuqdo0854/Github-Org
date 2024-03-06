@@ -36,12 +36,14 @@ Token=
 
 > 用于 NextAuth 部署: openssl rand -base64 32 生成
 
+JWT_SECRET=
+
+
 ## 注意事项
 
-Token 需要是组织 Token，另外需要给一个权限：
+1. Token 需要是组织 Token，另外需要给一个权限：
 
 ![image](https://github.com/godimessy1/Github-Org/assets/162074038/13d3a76a-884a-4d99-8beb-2a4930b56a34)
 
-
-JWT_SECRET=
+2. 组织的 Personal access tokens 设置要初始化一下不然选不到组织
 
