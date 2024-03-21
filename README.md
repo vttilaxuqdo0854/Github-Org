@@ -6,7 +6,7 @@
 
 推荐使用 Vercel，点击下面按钮即可进行部署，需要准备好：
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fchawaa%2FGithub-Org&env=GITHUB_ID,GITHUB_SECRET,ORG_NAME,Token,JWT_SECRET&envDescription=%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E6%A0%B7%E4%BE%8B&envLink=https%3A%2F%2Fgithub.com%2Fchawaa%2FGithub-Org%2Fblob%2Fmain%2F.env.example)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvttilaxuqdo0854%2FGithub-Org&env=GITHUB_ID,GITHUB_SECRET,ORG_NAME,Token,JWT_SECRET&envDescription=%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E6%A0%B7%E4%BE%8B&envLink=https%3A%2F%2Fgithub.com%2Fvttilaxuqdo0854%2FGithub-Org%2Fblob%2Fmain%2F.env.example)
 
 > 用于 Github 登录
 >
